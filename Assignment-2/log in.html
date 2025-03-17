@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.30.0/tabler-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="login-container">
+      <div class="login-wrapper">
+        <section class="illustration-section">
+          <div class="illustration-container">
+            <div class="illustration-content">
+              <div class="illustration-box">
+                <div class="illustration-inner">
+                  <div class="illustration-image-wrapper">
+                    <div class="illustration-image-container">
+                      <img
+                        src="https://placehold.co/400x400/4338ca/4338ca"
+                        alt="Decorative plant illustration"
+                        class="illustration-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="form-section">
+          <div class="form-container">
+            <h1 class="form-title">Login</h1>
+            <form class="login-form">
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <div class="input-container">
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    class="form-input"
+                    required
+                  />
+                  <i class="ti ti-mail input-icon" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <div class="input-container">
+                  <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password"
+                    class="form-input"
+                    required
+                  />
+                  <i class="ti ti-lock input-icon" aria-hidden="true"></i>
+                </div>
+              </div>
+              <button type="submit" class="login-button">Login</button>
+            </form>
+            <a href="#" class="create-account">Create an account</a>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
